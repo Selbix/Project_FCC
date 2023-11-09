@@ -1,0 +1,89 @@
+body{
+  background-color:	#a3bfeb;
+}
+h1,p {
+  text-align:center;
+  font-family: Tahoma ;
+}
+fieldset{
+  border: none;
+  padding: 1rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+.first label{
+display:block;
+margin:0.5rem;
+width:100%;
+font-family:Tahoma;
+font-size:18px;
+padding-bottom:0.5em;
+}
+.second label{
+display:block;
+margin:0.5rem;
+width:100%;
+font-family:Tahoma;
+padding-bottom:0.5em;
+
+}
+input, select{
+  display:block;
+  background-color:#7598cf;
+  border:none;
+  width:100%;
+}
+
+form{
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+.checkbox input{
+  display: block-inline;
+}
+.bigger{
+  font-size:18px;
+  margin-top:3em;
+}
+.smaller{
+  font-size:16px;
+  display: inline-block;
+  margin: 0.5rem 0;
+  width: auto;
+}
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 0.25em;
+}
+
+input[type="submit"]{
+  display: block;
+  width: 100%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  color: #FFFFFF;
+  background-color: #7598cf;
+  border-color: white;
+  min-width: 300px;
+}
+.inline {
+  display: inline-block; 
+  margin: 0.5rem 0;
+}
+.align {
+  width: auto;
+  vertical-align: middle; /* Aligns the input with the label text vertically */
+}
+
+.align {
+  vertical-align: middle;
+  display: inline-block; 
+  margin-right: 10px;
+  margin-bottom: 10px; 
+}

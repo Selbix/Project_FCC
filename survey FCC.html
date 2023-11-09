@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <title>Survey Form Project</title>
+</head>
+<body>
+  <h1 id="title">Project Form</h1>
+  <p id="description">First HTML/CSS project</p>
+  <form id="survey-form" method="post" action="https://register-demo.freecodecamp.org">
+    <fieldset class="first">
+      <label for="name" id="name-label">Name: <input type="text" required placeholder="Enter your name" id="name" name="name"></label>
+      <label for="email" id="email-label">Email: <input type="email" id="email" required placeholder="Enter your email"></label>
+      <label for="number" id="number-label">Age: <em>(optional)</em> <input type="number" placeholder="Enter your age" id="number" min="10" max="130"></label>
+    </fieldset>
+    <fieldset class="first">
+      <label for="dropdown">What is your occupation?
+      <select id="dropdown">
+        <option value="">select one</option>
+        <option value="1">Student</option>
+        <option value="2">Full time job</option>
+        <option value="3">Full time learner</option>
+        <option value="4">Prefer not to say</option>
+        <option value="5">Other</option>
+      </select>
+      </label>
+    </fieldset>
+    <fieldset class="second">
+      <section>
+      <label class="bigger">Would you recommend this survey to someone?
+        <label class="smaller" class="align"><input type="radio" class="align" value="1" name="rec" checked> Definitely</label>
+        <label class="smaller" class="align"><input type="radio" class="align" value="1" name="rec"> Maybe</label>
+        <label class="smaller" class="align"><input type="radio" class="align" value="2" name="rec"> Not sure</label>
+      </label>
+      </section>
+      <section class="checkbox">
+        <label class="bigger">What would you like to see improved ?
+          <label class="smaller"><input type="checkbox" value="1" class="smaller" class="inline"> Front-end</label>
+          <label class="smaller"><input type="checkbox" value="2" class="smaller" class="inline"> Back-end</label>
+          <label class="smaller"><input type="checkbox" value="3" class="smaller" class="inline"> Data visualization</label>
+          <label class="smaller"><input type="checkbox" value="4" class="smaller" class="inline"> Challenges</label>
+          <label class="smaller"><input type="checkbox" value="5" class="smaller" class="inline"> Open Source Community</label>
+          <label class="smaller"><input type="checkbox" value="6" class="smaller" class="inline"> Videos</label>
+          <label class="smaller"><input type="checkbox" value="7" class="smaller" class="inline"> Wiki</label>
+        </label>
+      </section>
+      <label>Any feedback?<textarea placeholder="Any suggestions/comments?"></textarea>
+      </label>
+    </fieldset>
+    <input type="submit" id="submit">
+  </form>
+</body>
+<footer>
+</footer>
